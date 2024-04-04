@@ -1,0 +1,13 @@
+~/package $ mkdir build
+~/package $ cd build
+~/package/build $ cmake ..
+~/package/build $ make
+cd ..
+
+bash run-test-release.sh
+
+or
+
+./build/Simulator file print_history
+
+./build/Simulator ./test-release/add.riscv
